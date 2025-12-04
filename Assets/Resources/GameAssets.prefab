@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &971996240811603046
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8116101724223682870}
+  - component: {fileID: 944431252179938041}
+  m_Layer: 0
+  m_Name: GameAssets
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8116101724223682870
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 971996240811603046}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &944431252179938041
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 971996240811603046}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de8622a95a4dfb14b82ce59574f47ba3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pfSysMessage: {fileID: 0}
+  pfDamagePopup: {fileID: 0}
+  pfTextPopup: {fileID: 0}
+  pfPlayerObject: {fileID: 0}
+  audioClipArray:
+  - mixer: {fileID: -5333076078065036893, guid: 10961929dd84ed54fa90b7beed104eb5, type: 2}
+    sound: 1
+    audioClip: {fileID: 8300000, guid: e58d0940e14d83e45882eb4e1d59b2b1, type: 3}
+    volume: 0.4
+  - mixer: {fileID: -5333076078065036893, guid: 10961929dd84ed54fa90b7beed104eb5, type: 2}
+    sound: 0
+    audioClip: {fileID: 8300000, guid: 9e4aaff5be7d6ac42a109421d8ef17e3, type: 3}
+    volume: 0.4
+  musicTrackArray:
+  - mixer: {fileID: -8160735394874381396, guid: 10961929dd84ed54fa90b7beed104eb5, type: 2}
+    music: 0
+    audioClip: {fileID: 8300000, guid: 053540b74762bbd47a20f67e6a38184b, type: 3}
+    volume: 0.25
