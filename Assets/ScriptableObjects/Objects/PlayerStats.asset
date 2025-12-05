@@ -17,11 +17,28 @@ MonoBehaviour:
   groundDeceleration: 20
   airAcceleration: 5
   airDeceleration: 5
+  playerCanRun: 0
   maxRunSpeed: 20
   groundDetectionRayLength: 0.02
   headDetectionRayLength: 0.02
   headWidth: 0.75
-  debugShowIsGroundedBox: 1
+  jumpHeight: 5.2
+  jumpHeightCompensationFactor: 1.054
+  timeTillJumpApex: 0.3
+  gravityOnReleaseMultiplier: 2
+  maxFallSpeed: 30
+  numberOfJumpsAllowed: 1
+  timeForUpwardsCancel: 0.02
+  apexThreshold: 0.97
+  apexHangTime: 0.01
+  jumpBufferTime: 0.125
+  jumpCoyoteTime: 0.1
+  debugShowIsGroundedBox: 0
   debugShowHeadBumpBox: 1
-  jumpPower: 20
-  dashAmount: 1
+  showWalkJumpArc: 1
+  showRunJumpArc: 0
+  stopOnCollision: 0
+  drawRight: 1
+  arcResolution: 20
+  visualizationSteps: 90
+  playerCanDash: 0
