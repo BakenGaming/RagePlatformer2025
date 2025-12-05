@@ -25,36 +25,9 @@
                     "initialStateCheck": false
                 },
                 {
-                    "name": "DashUp",
+                    "name": "Dash",
                     "type": "Button",
                     "id": "3e7c8efb-6d83-4c8a-8d9b-f20aaf55aa59",
-                    "expectedControlType": "",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": false
-                },
-                {
-                    "name": "DashDown",
-                    "type": "Button",
-                    "id": "41752507-d013-447a-9996-8aeadcffb59b",
-                    "expectedControlType": "",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": false
-                },
-                {
-                    "name": "DashLeft",
-                    "type": "Button",
-                    "id": "32772533-04ac-4109-b960-2904f0aa696a",
-                    "expectedControlType": "",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": false
-                },
-                {
-                    "name": "DashRight",
-                    "type": "Button",
-                    "id": "8590d62a-0c8b-4176-8960-a67c1e0528a8",
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
@@ -64,6 +37,15 @@
                     "name": "OpenMENU",
                     "type": "Button",
                     "id": "6cc04847-a4d5-4edf-a8ed-80df49cb9360",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Run",
+                    "type": "Button",
+                    "id": "cdd115fb-5d71-47e6-869e-62d817850e09",
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
@@ -95,45 +77,12 @@
                 },
                 {
                     "name": "",
-                    "id": "401d154e-89f8-4b43-9c8a-d58a9ed0fd95",
-                    "path": "<Gamepad>/buttonWest",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "DashRight",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
                     "id": "0058f865-281e-4031-a688-64e37c34b9c0",
                     "path": "<Gamepad>/buttonNorth",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "DashUp",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "8a4054f9-2122-4b0d-a3ae-d820d311e3bf",
-                    "path": "<Gamepad>/buttonEast",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "DashLeft",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "56617689-bb1a-411a-9895-2a8cc120cb2a",
-                    "path": "<Gamepad>/buttonSouth",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "DashDown",
+                    "action": "Dash",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -145,6 +94,17 @@
                     "processors": "",
                     "groups": "",
                     "action": "OpenMENU",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "1d131b75-e556-4972-952c-092ff98bf709",
+                    "path": "<Gamepad>/buttonWest",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Run",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

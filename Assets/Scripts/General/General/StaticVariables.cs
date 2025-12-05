@@ -6,8 +6,7 @@ using UnityEngine.Audio;
 public class StaticVariables : MonoBehaviour
 {
     public static StaticVariables i;
-    [SerializeField] private LayerMask whatIsGround, whatIsPlayer, whatIsEnemy, 
-        collectable, whatIsUI;
+    [SerializeField] private LayerMask whatIsGround, whatIsPlayer, whatIsHazard, whatIsCollectable, whatIsUI;
     [SerializeField] private AudioMixerGroup masterMixer, sfxMixer, musicMixer;
 
     private void Awake() 
@@ -16,10 +15,10 @@ public class StaticVariables : MonoBehaviour
     }
 
     public LayerMask GetGroundLayer() { return whatIsGround; }
-    public LayerMask GetPlayer() { return whatIsPlayer; }
-    public LayerMask GetEnemy() { return whatIsEnemy; }
-    public LayerMask GetCollectable() { return collectable; }
-    public LayerMask GetUI(){ return whatIsUI; }
+    public LayerMask GetPlayerLayer() { return whatIsPlayer; }
+    public LayerMask GetHazardLayer() { return whatIsHazard; }
+    public LayerMask GetCollectableLayer() { return whatIsCollectable; }
+    public LayerMask GetUILayer(){ return whatIsUI; }
     public AudioMixerGroup GetMasterMixer(){ return masterMixer; }
     public AudioMixerGroup GetSFXMixer(){ return sfxMixer; }
     public AudioMixerGroup GetMusicMixer(){ return musicMixer; }

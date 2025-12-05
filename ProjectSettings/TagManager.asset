@@ -11,12 +11,12 @@ TagManager:
   - Non-Interactable
   - Water
   - UI
-  - Player
-  - Enemy
   - Ground
-  - 
-  - Wall
+  - Player
+  - Hazard
   - Collectable
+  - 
+  - 
   - 
   - 
   - 

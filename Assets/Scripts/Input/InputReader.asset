@@ -12,3 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad0ca1e61ad91ab4196fc260a9f0b011, type: 3}
   m_Name: InputReader
   m_EditorClassIdentifier: Assembly-CSharp::InputReader
+  _asset: {fileID: -944628639613478452, guid: 0a343e5ef1f90d24e9e75fb7ad5693e4, type: 3}

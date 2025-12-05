@@ -12,6 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 484861c0ab266894e8b337aa1bcfb44e, type: 3}
   m_Name: PlayerStats
   m_EditorClassIdentifier: Assembly-CSharp::PlayerStatsSO
-  moveSpeed: 15
+  maxWalkSpeed: 12.5
+  groundAcceleration: 5
+  groundDeceleration: 20
+  airAcceleration: 5
+  airDeceleration: 5
+  maxRunSpeed: 20
+  groundDetectionRayLength: 0.02
+  headDetectionRayLength: 0.02
+  headWidth: 0.75
+  debugShowIsGroundedBox: 1
+  debugShowHeadBumpBox: 1
   jumpPower: 20
   dashAmount: 1
